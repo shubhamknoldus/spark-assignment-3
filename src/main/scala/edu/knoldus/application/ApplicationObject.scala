@@ -15,6 +15,7 @@ object ApplicationObject {
     logger.info(s"\n\n${dataAnalyzer.totalMatchesPlayedAsHome.show}\n\n")
     logger.info(s"\n\n${dataAnalyzer.highestWiningPercentage.show}\n\n")
     logger.info(s"\n\n${dataAnalyzer.convertToDataSet.show}\n\n")
+    logger.info(s"\n\n${dataAnalyzer.totalMatchPlayedByEachTeam.show}\n\n")
 
 
   }
